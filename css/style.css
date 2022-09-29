@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+body {
+  background: rgb(28, 27, 34);
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  background: rgb(43, 42, 51);
+  width: 300px;
+  margin: 100px auto 0 auto;
+  padding: 25px;
+  border-radius: 25px;
+}
+.card-container .section-separator {
+  background-color: #ffffff;
+  height: 2px;
+}
+.card-container .profile {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.card-container .profile .photo {
+  height: 125px;
+  width: 125px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -5px;
+     object-position: 0 -5px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+.card-container .profile .name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+.card-container .socials {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px 15px 20px;
+}
+.card-container .socials .social-link-btn img {
+  width: 50px;
+  height: 50px;
+  filter: invert(1);
+}
+.card-container .email .email-link {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0 15px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.card-container .email .email-link .icon {
+  filter: invert(1);
+}
+.card-container .feedback {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-container .feedback .feedback-form-link {
+  color: rgb(28, 27, 34);
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border: none;
+  padding: 15px 101px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+}/*# sourceMappingURL=style.css.map */
